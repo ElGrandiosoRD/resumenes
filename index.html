@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumenes Camilo Reynoso Adames</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="carga.js"></script> 
+
+
+</head>
+
+<body>
+
+    <!-- Relice una sola pagina para los 4 resumenes, junto con un iframe para verlos en 
+     formato pdf, compatible con los navegadores actuales, de esta forma me resulto mas facil
+     y comodo que hacer una pagina para cada resumen. -->
+    <div class="botones">
+        <button onclick="cargarPDF('RESUMEN XML.pdf')">Resumen XML</button>
+        <button onclick="cargarPDF('RESUMEN JSON.pdf')">Resumen Json</button>
+        <button onclick="cargarPDF('RESUMEN AJAX.pdf')">Resumen Ajax</button>
+        <button onclick="cargarPDF('RESUMEN MVC.pdf')">Resumen MVC</button>
+    </div>
+
+    <iframe id="visorPDF"></iframe>
+
+</body>
+<footer class="footer">
+    <p>Camilo Reynoso Adames - 2025</p>
+</footer>
+</html>
