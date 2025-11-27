@@ -10,13 +10,14 @@
  .botones {
    display: flex;
    justify-content: space-around;
-   padding: 15px;
+   padding: 10px;
    background: #f0f0f0;
  }
 
  .botones button {
-   width: 23%;
-   padding: 20px;
+   width: 20%;
+   padding: 10px;
+   margin: 2px;
    font-size: 18px;
    font-weight: bold;
    border: none;
@@ -41,4 +42,5 @@
    text-align: center;
    padding: 0px 0;
    background: #f0f0f0;
+
  }
